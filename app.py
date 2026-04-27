@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load model
-with open("churn_model.pkl", "rb") as f:
+with open("customer_churn_model.pkl", "rb") as f:
     model_data = pickle.load(f)
 
 weights = model_data["weights"]
